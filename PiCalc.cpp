@@ -24,6 +24,8 @@ void calculatePi(int start, int end, double& result) {
 
 int main()
 {
+    /*To see maximum number of available threads use std::thread::hardware_concurrency()*/
+
     int numTerms = 1E8;
     double result = 0.0;
 
