@@ -14,7 +14,7 @@ void calculatePi(int start, int end, double& result) {
 
     for (int i = start; i < end; i++) {
         int sign = std::pow(-1, i);
-        double term = 1.0 / (2*static_cast<double>(i) + 1);
+        double term = 1.0 / (2.0 * i + 1);
         sum += sign * term;
     }
 
